@@ -1,4 +1,4 @@
 resume
 ======
 
-Resume
+This is Vincent Kee's resume repository.
