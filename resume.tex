@@ -3,19 +3,16 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[stretch=10]{microtype}
-\usepackage{hyperref}
 \usepackage{tgpagella}
 \usepackage{enumitem}
 \pagestyle{empty}
 \usepackage[none]{hyphenat}
+\usepackage[hidelinks]{hyperref}
 
 %:Begin Document
 \begin{document}
-
 \begin{center}
 {\huge \textbf{Vincent Kee}}
-
-% NOTE: Alternatively could have used \hfill
 
 \href{http://vincentkee.wordpress.com}{vincentkee.wordpress.com}\ \ \textbullet
 \ \ \href{mailto:vkee@mit.edu}{vkee@mit.edu}\ \ \textbullet
@@ -23,7 +20,7 @@
 \end{center}
 
 \hrule
-\vspace{-0.4em}
+\vspace{-0.6em}
 
 \subsection*{Education}
   \begin{itemize}
@@ -35,25 +32,78 @@
     \\
     {\emph{Candidate for Bachelor of Science in Electrical Engineering and Computer Science} \hfill
       \emph{June 2016}}\\
-      \emph{Candidate for a Minor in Mechanical Engineering}
-      \\
-      Relevant Coursework: \href{http://student.mit.edu/catalog/search.cgi?search=6.01&style=verbatim
-}{Introduction to Electrical Engineering and Computer Science I}, \href{http://student.mit.edu/catalog/search.cgi?search=2.00b&style=verbatim}{Toy Product Design} 
+      Relevant Coursework: \href{http://student.mit.edu/catalog/search.cgi?search=6.141&style=verbatim}{Robotics: Science and Systems I}, \href{http://student.mit.edu/catalog/search.cgi?search=6.170&style=verbatim}{Software Studio}, \href{http://student.mit.edu/catalog/search.cgi?search=6.005&style=verbatim}{Software Construction}, \href{http://student.mit.edu/catalog/search.cgi?search=6.006&style=verbatim}{Algorithms}, \href{http://student.mit.edu/catalog/search.cgi?search=6.003&style=verbatim}{Signals and Systems}, \href{http://student.mit.edu/catalog/search.cgi?search=6.002&style=verbatim}{Circuits and Electronics}, \href{http://student.mit.edu/catalog/search.cgi?search=6.041&style=verbatim}{Probabilistic Systems Analysis}, \href{http://student.mit.edu/catalog/search.cgi?search=6.034&style=verbatim}{Artificial Intelligence}, \href{http://student.mit.edu/catalog/search.cgi?search=18.06&style=verbatim}{Linear Algebra}
 
-    \item[]
-    {{\textbf{California Academy of Mathematics and Science (CAMS)}} \hfill
-      \textbf{Carson, CA}}
-    \\
-    {GPA: 4.0 (unweighted); SAT: 2210; ACT: 34 \hfill
-      \emph{June 2012}}
+GPA: 4.8/5.0
+
   \end{itemize}
 
 \hrule
-\vspace{-0.4em}
+\vspace{-0.6em}
 
-\subsection*{Research}
+%: Work Experience
+\subsection*{Work Experience}
   \begin{itemize}
     \parskip=-0.1em
+
+%: ACL UROP
+    \item[]
+    {\href{http://acl.mit.edu/}{\textbf{Aerospace Controls Lab, MIT Laboratory for Information and Decision Systems (LIDS)}} \hfill
+      \textbf{Cambridge, MA}}
+    \\
+    {\emph{Undergraduate Researcher} \hfill \emph{January 2015 - Present}}
+	
+	\begin{itemize}[label=\textbullet]
+	\itemsep0em 
+	\item Developing path planning algorithms for navigating a car through a pedestrian rich environment
+	\item Developed software for competition where each team was provided a quadrotor with a camera to provide visual feedback for their sensorless iRobot Create tasked with navigating through a stochastic environment
+	\item Designed a ROS program integrating RAVEN Vicon system data and generating visualizations with Vispy
+	
+\end{itemize}
+
+%: Aurora Flight Sciences Internship
+    \item[]
+    {\href{http://aurora.aero}{\textbf{Aerial Robotics Group, Aurora Flight Sciences}} \hfill
+      \textbf{Manassas, VA}}
+    \\
+    {\emph{Electrical Engineering and Computer Science Intern} \hfill \emph{June - August 2014}}
+	
+	\begin{itemize}[label=\textbullet]
+	\itemsep0em
+	\item Developed path planning algorithms for scanning areas with UAVs along with workflow and software application
+	\item Revamped flight data display application to maximize area available to display data
+	\item Conducted two demos of mission planning tool and presented work to audience of over 50 company engineers
+
+\end{itemize}
+
+%: Printable Robots UROP
+    \item[]
+    {\href{http://ppm.csail.mit.edu/}{\textbf{Distributed Robotics Lab, MIT Computer Science and Artificial Intelligence Lab (CSAIL)}} \hfill
+      \textbf{Cambridge, MA}}
+    \\
+    {\emph{Undergraduate Researcher} \hfill \emph{September - December 2013}}
+	
+	\begin{itemize}[label=\textbullet]
+	\itemsep0em
+	\item Designed robot components to be created by planar fabrication techniques and origami-style folding
+	\item Developed a graphical user interface to allow users to create robot assemblies with components from part library
+
+\end{itemize}
+
+%: RoboMods MISTI Singapore
+    \item[]
+    {\href{http://www.sutd.edu.sg/idc.aspx}{\textbf{MIT-SUTD International Design Centre, Singapore University of Technology and Design (SUTD)}} \hfill
+      \textbf{Singapore}}
+    \\
+    {\emph{Undergraduate Researcher} \hfill \emph{July - August 2013}}
+	
+	\begin{itemize}[label=\textbullet]
+	\itemsep0em
+	\item {\href{http://vincentkee.wordpress.com/tetromino/}{Designed and fabricated a nested reconfiguration modular robotics system capable of rearranging its own modules (intra-reconfiguration) and combining with other systems to form more complex systems (inter-reconfiguration)}}
+	\item {\href{http://www.youtube.com/watch?v=YFhAlsQ3uYQ}{Demonstrated intra-reconfiguration into all seven one-sided tetrominoes with the hinged tetromino prototype}}
+
+\end{itemize}
+
 
 %: BU Research Internship
     \item[]
@@ -64,77 +114,44 @@
 	
 	\begin{itemize}[label=\textbullet]
 	\itemsep0em
-	\item Tested feasibility of optic-flow based navigation for autonomous robots under guidance of post doctorate researchers and professors in BU CELEST Neuromorphics Lab
-	\item Developed optic-flow detecting filters and navigational algorithms in MATLAB and applied them to iRobot Creates equipped with webcams for image feeds
-	\item Presented \href{http://vincentkee.files.wordpress.com/2011/09/research-paper-the-final-draft.pdf}{paper} and \href{http://vincentkee.files.wordpress.com/2011/09/optic-flow-based-navigation-using-correlation-techniques.png}{poster} to Boston University Integrated Circuits and Systems group and approximately fifty people at Boston University public poster session
+	\item Developed optic-flow detecting filters and navigational algorithms for autonomous robots
+	\item Presented \href{http://vincentkee.files.wordpress.com/2011/09/research-paper-the-final-draft.pdf}{paper} and \href{http://vincentkee.files.wordpress.com/2011/09/optic-flow-based-navigation-using-correlation-techniques.png}{poster} to Boston University Integrated Circuits and Systems group and approximately fifty people at a Boston University public poster session
 	\end{itemize}
 \end{itemize}
 
 \hrule
-\vspace{-0.4em}
+\vspace{-0.6em}
 
-\subsection*{Leadership}
+%: Technical Skills
+\subsection*{Technical Skills}
+\begin{itemize}
+	\item[]\textbf{Computer Skills:} \emph{Proficient:} Java, Python \emph{Familiar:}  JavaScript, MATLAB, C++, C, Robot Operating System (ROS),Node.js
+	\item[]\textbf{Mechanical Engineering:} ASME Y14.5, Solidworks, CNC Mill, CNC Router, Conventional Mill, Lathe, 3D Printing
+\end{itemize}
+
+\hrule
+\vspace{-0.6em}
+
+\subsection*{Awards}
   \begin{itemize}
     \parskip=-0.1em
     
-%: CAMS EDD
+%: MASLAB
     \item[]
-    {\href{http://vincentkee.wordpress.com/edd/}{\textbf{CAMS Engineering Design and Development}} \hfill
-      \textbf{Carson, CA}}
-    \\
-    {\emph{Project Manager} \hfill \emph{August 2011 - June 2012}}
+    {\href{http://maslab.mit.edu/2014/site/index.html}{\textbf{2nd Place in MIT Mobile Autonomous Systems Laboratory Robotics Competition}} \hfill
+      \textbf{January 2014}}
 
     \begin{itemize}[label=\textbullet]
       \itemsep0em
-      \item Planned, executed, and completed yearlong project in autonomous modular component robotics with \$1,000 budget constraint and 16 person team
-      \item Set project milestones, task dependencies, developed work and resource breakdown structure, managed team, and served as liaison between team and client
-      \item Completed project and met all requirements and produced deliverables at the five Critical Design Reviews (System Performance Specification Proposal, Proof of Concept, Technical Data Package, Mission Performance, Trade Show Exposition)    
-      \end{itemize}
-
- %: CAMS FRC System Engineer
-    \item[]
-    {\href{http://camsrobotics.org/}{\textbf{CAMS FIRST Robotics}} \hfill
-      \textbf{Carson, CA}}
-    \\
-    {\emph{Systems Engineer} \hfill \emph{August 2011 - June 2012}}
-
-    \begin{itemize}[label=\textbullet]
-      \itemsep0em
-      \item Conducted Requirements Analysis to focus design effort following Waterfall Model      
-      \item Coordinated design efforts of Mechanical and Control subteams and served as liaison between the Design and Manufacturing subteams 
-      \item Oversaw creation of robot \href{http://vincentkee.files.wordpress.com/2012/11/687-tdp-2012-rebound-rumble.pdf}{Technical Data Package} per ASME Y14.5
-    \end{itemize}
-
-%: CAMS FRC Articulation Leader
-    \item[]
-    {\emph{Articulation Leader} \hfill \emph{August 2010 - June 2011}}
-
-    \begin{itemize}[label=\textbullet]
-      \itemsep0em
-      \item Managed 10-person Articulation subteam and collaborated with Systems Engineers and Drive leaders to integrate subsystems using Autodesk Inventor
-      \item Worked with industry mentors to implement industrial design standards, stress test all manufactured parts and assemblies, and manufacture parts on HAAS CNC Mills
-      \item Designed and built first working articulation system in recent team history
-    \end{itemize}
-  \end{itemize}
-  
-\hrule
-\vspace{-0.4em}
-
-\subsection*{Technical Skills}
-\begin{itemize}
-	\item[]\textbf{Languages:} MATLAB, C++, Java, Python, \LaTeX, BASIC
-	\item[]\textbf{Mechanical Engineering:} ASME Y14.5, Autodesk Inventor, Mastercam, CNC Mill, Conventional Mill, Lathe Operation
+      \item Designed, manufactured, and programmed a fully autonomous robot utilizing computer vision and ultrasonic sensor feedback for navigation in one month as part of a five person team
+      \end{itemize}    
 \end{itemize}
 
 \hrule
-\vspace{-0.4em}
-\subsection*{Activities and Interests}
-\begin{itemize}
-	\item[]{\href{http://solar-cars.scripts.mit.edu/}{\textbf{MIT Solar Electric Vehicle Team}}} \emph{Electrical Subteam Member} \hfill \emph{September 2012 - Present}
-	\item[]{\href{https://sites.google.com/site/mitcampuscru/}{\textbf{MIT Cru}}} \emph{Member} \hfill \emph{September 2012 - Present}
-\end{itemize}
+\vspace{-0.6em}
 
-\hrule
-\vspace{-0.4em}
+\subsection*{Publications}
+    \parskip=-0.1em
+{\href{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6878302}{Kee, V., Rojas, N., Elara, M. R., \& Sosa, R. (2014, July). Hinged-Tetro: A self-reconfigurable module for nested reconfiguration. In Advanced Intelligent Mechatronics (AIM), 2014 IEEE/ASME International Conference on (pp. 1539-1546). IEEE.}}
 
 \end{document}
